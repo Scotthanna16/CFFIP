@@ -3,15 +3,18 @@
 ### These assignments were a team effort between myself and @amoukabary
 ### Assignment 1: 
 #### - Algorithmic Trading Backtester: 
-This project implements a CSV-based algorithmic trading backtester in Python. It reads pre-generated market data from CSV files, applies modular trading strategies, simulates order execution, and generates a detailed performance report.
-The system is built with a strong focus on object-oriented design, data immutability, and robust error handling, showcasing how to structure a small but realistic trading engine.
-Key Features:
-Parses market data into immutable MarketDataPoint dataclasses
-Implements a mutable Order class for managing trade state
-Defines an abstract Strategy base class with concrete strategy subclasses (e.g., Moving Average, Momentum)
-Uses lists and dictionaries for time-series buffering and portfolio tracking
-Handles invalid or failed orders gracefully via custom exceptions (OrderError, ExecutionError)
-Produces a Markdown performance report with total return, Sharpe ratio, and drawdown metrics
+This project implements a **CSV-based algorithmic trading backtester** in Python. It reads pre-generated market data from CSV files, applies modular trading strategies, simulates order execution, and generates a detailed performance report.  
+
+The system is built with a strong focus on **object-oriented design**, **data immutability**, and **robust error handling**, showcasing how to structure a small but realistic trading engine.  
+
+**Key Features:**  
+- Parses market data into immutable `MarketDataPoint` dataclasses  
+- Implements a mutable `Order` class for managing trade state  
+- Defines an abstract `Strategy` base class with concrete strategy subclasses (e.g., Moving Average, Momentum)  
+- Uses lists and dictionaries for time-series buffering and portfolio tracking  
+- Handles invalid or failed orders gracefully via custom exceptions (`OrderError`, `ExecutionError`)  
+- Produces a Markdown performance report with total return, Sharpe ratio, and drawdown metrics  
+  
 
 ### Assignment 2: 
 #### - Multi-Signal Strategy Simulation: 
