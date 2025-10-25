@@ -2,7 +2,7 @@
 
 ### These assignments were a team effort between myself and @amoukabary
 ### Assignment 1: 
-#### - Algorithmic Trading Backtester: 
+#### Algorithmic Trading Backtester: 
 This project implements a **CSV-based algorithmic trading backtester** in Python. It reads pre-generated market data from CSV files, applies modular trading strategies, simulates order execution, and generates a detailed performance report.  
 
 The system is built with a strong focus on **object-oriented design**, **data immutability**, and **robust error handling**, showcasing how to structure a small but realistic trading engine.  
@@ -17,7 +17,7 @@ The system is built with a strong focus on **object-oriented design**, **data im
   
 
 ### Assignment 2: 
-#### - Multi-Signal Strategy Simulation: 
+#### Multi-Signal Strategy Simulation: 
 This project implements a **multi-signal trading simulator** for the **S&P 500 (2005–2025)**. Using object-oriented Python, it downloads historical price data, executes multiple technical indicator–based strategies, and compares their performance under realistic capital constraints.  
 
 The simulator focuses on **modularity**, **execution efficiency**, and **signal evaluation** through realistic trading simulations.  
