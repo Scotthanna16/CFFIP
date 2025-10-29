@@ -67,4 +67,26 @@ You’ll design modular components (data loader, strategy, broker, and backteste
 - Enforced **≥90% coverage threshold** with `coverage.py`  
 - Fast, deterministic, and isolated test design (no external APIs or I/O)  
 
+### Assignment 6:
+#### Design Patterns in Financial Software Architecture
+This project implements a **modular financial analytics and trading platform** using key **object-oriented design patterns**.  
+Through realistic financial scenarios, you will apply **creational**, **structural**, and **behavioral** patterns to build a system that is reusable, extensible, and easy to maintain.  
+
+Each pattern is introduced in the context of a practical finance problem—ranging from instrument creation and portfolio construction to trade execution and signal broadcasting—illustrating how design choices impact flexibility, maintainability, and scalability in production systems.  
+
+**Key Features:**  
+- Creational Patterns:
+  - `Factory` – Create different instrument types (Stock, Bond, ETF) dynamically.  
+  - `Singleton` – Centralize configuration and parameters across modules.  
+  - `Builder` – Construct complex nested portfolios fluently.  
+
+- Structural Patterns:
+  - `Decorator` – Extend instrument analytics (volatility, beta, drawdown) without modifying base classes.  
+  - `Adapter` – Normalize heterogeneous external data sources (Yahoo Finance, Bloomberg XML).  
+  - `Composite` – Represent hierarchical portfolio structures (positions, sub-portfolios).  
+
+- Behavioral Patterns: 
+  - `Strategy` – Support interchangeable trading logic (Mean Reversion, Breakout).  
+  - `Observer` – Implement event-driven updates via signal publishing and listener modules.  
+  - `Command` – Encapsulate trade execution and support undo/redo functionality.  
 
